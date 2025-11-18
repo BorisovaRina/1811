@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -11,9 +11,6 @@ namespace ConsoleApp5
 {
     internal class Program
     {
-        // ============= ТЕМА 5: МЕТОДЫ =============
-
-        // Метод для задания 5.1 - вычисление факториала
         static long Factorial(int n)
         {
             if (n < 0) return 0;
@@ -112,7 +109,6 @@ namespace ConsoleApp5
             return sum;
         }
 
-        // ============= ТЕМА 6: РЕКУРСИЯ =============
 
         // Задание 6.1 - Факториал (рекурсивный)
         static long FactorialRecursive(int n)
@@ -196,7 +192,6 @@ namespace ConsoleApp5
             return IsPalindromeRecursive(str, left + 1, right - 1);
         }
 
-        // ============= ТЕМА 7: АЛГОРИТМЫ =============
 
         // Задание 7.1 - Сортировка выбором
         static void SelectionSort(int[] arr)
@@ -380,7 +375,6 @@ namespace ConsoleApp5
             return duplicates;
         }
 
-        // ============= ТЕМА 8: ООП =============
 
         // Задание 8.1 - Класс "Студент"
         class Student
@@ -700,7 +694,6 @@ namespace ConsoleApp5
             }
         }
 
-        // ============= ТЕМА 9: ФАЙЛЫ =============
 
         // Задание 9.1 - Запись текста в файл
         static void WriteToFile(string filename, string text)
